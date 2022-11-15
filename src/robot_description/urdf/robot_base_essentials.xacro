@@ -52,6 +52,7 @@
         </joint>
     </xacro:macro>
 
+      <!--######################################################################-->
     <xacro:macro name="base_transmission" params="prefix ">
         <transmission name="${prefix}_wheel_trans" type="SimpleTransmission">
             <type>transmission_interface/SimpleTransmission</type>
